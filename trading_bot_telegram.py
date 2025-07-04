@@ -21,7 +21,7 @@ class TradingAnalyzer:
     def __init__(self):
         self.user_data = {}  # Dictionary untuk menyimpan data per user
         self.user_cache = {}  # Dictionary untuk cache per user
-        self.data_folder = r"C:\Users\nedquad12\Documents\Foreign\Trading\File"
+        self.data_folder = os.path.join(os.getcwd(), "File")
         
     def _get_user_key(self, user_id):
         """Generate cache key for user"""
