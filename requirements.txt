@@ -1,0 +1,4 @@
+pandas
+matplotlib
+numpy
+python-telegram-bot==20.0
